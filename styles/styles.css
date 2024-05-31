@@ -11,9 +11,9 @@ body{
 /* Cabecera */
 .cabecera{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    background: radial-gradient(circle, #B100FF, #d980ff);
+    background: white;
     border-bottom: 4px solid #111111;
     height: 10vh;
 }
@@ -29,7 +29,7 @@ body{
 
 /* Presentacion */
 
-.presentacion{
+#presentacion{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,30 +40,39 @@ body{
     text-align: center;
 }
 
-.presentacion .logospresentacion img{
+/*Tarjeta Personal*/
+.tarjetaPersonal{
     display: flex;
-    width: 20px;
+    width: 50vw;
+    height: 60vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 9px 4px white;
 }
 
-.enlaces{
+/*Sección foto Perfil*/
+.fotoPerfil{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    width: 120px;
-    text-decoration: none;
-    border: 2px solid #6d019b;
-    background: radial-gradient(ellipse at top left, #B100FF, #d980ff);
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
 }
+
+.fotoPerfil img {
+    width: 20vw;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+/*Sección nombre*/
 
 .nombre{
-    width: 60px;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 20px;
 }
-
-
-
-.presentacion h1{
-    font-size: 50px;
-}
-
