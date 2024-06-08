@@ -14,17 +14,14 @@ body{
     justify-content: space-around;
     align-items: center;
     background: white;
-    border-bottom: 4px solid #111111;
-    height: 10vh;
+    border-bottom: 5px solid rgb(142, 253, 142);
+    height: 7vh;
+    width: 100%;
 }
 .cabecera a{
     text-decoration: none;
     padding-inline: 20px;
     color: black;
-}
-.cabecera img{
-    width: 150px;
-    height: 100px;   
 }
 
 /* Presentacion */
@@ -73,6 +70,71 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: max-content;
+    width: 100%;
     padding: 20px;
+}
+
+.nombre h1{
+    font-size: 50px;
+}
+
+.nombre p{
+    font-size: 20px;
+}
+
+.resaltar{
+    color:rgb(142, 253, 142);
+}
+
+/*Sección redes*/
+
+.redes{
+    border-top: 4px solid white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*Sección Sobre mí*/
+
+#sobremi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+
+    color: white;
+}
+
+.textsobremi{
+    width: 45vw;
+    border-left: 4px solid rgb(142, 253, 142);
+    padding: 30px;
+    font-size: 20px;
+}
+
+/*Sección trayectoria*/
+
+#trayectoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    height: 80vh;
+    color: white;
+}
+
+.lineadetiempo{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-top: 20px;
+    height: 60vh;
+    width: 30vw;
+    border-right: 4px solid rgb(142, 253, 142);
+}
+
+.estudio1{
+    border-top: 4px solid rgb(142, 253, 142);
 }
