@@ -102,15 +102,17 @@ body{
     align-items: center;
     justify-content: center;
     height: 50vh;
-
     color: white;
 }
 
 .textsobremi{
-    width: 45vw;
+    width: 50vw;
     border-left: 4px solid rgb(142, 253, 142);
-    padding: 30px;
     font-size: 20px;
+}
+
+.textsobremi p{
+    padding-left: 30px;
 }
 
 /*Sección trayectoria*/
@@ -120,21 +122,75 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid white;
-    height: 80vh;
+    height: fit-content;
     color: white;
+    
+    padding: 20px;
 }
 
 .lineadetiempo{
     display: flex;
-    flex-direction: column;
-    border: 1px solid white;
+    justify-content: space-between;
     margin-top: 20px;
-    height: 60vh;
-    width: 30vw;
-    border-right: 4px solid rgb(142, 253, 142);
+    height: fit-content;
+    width: 50vw;
+    
 }
 
-.estudio1{
-    border-top: 4px solid rgb(142, 253, 142);
+.estudios{
+    height: fit-content;
+    border-left: 4px solid rgb(142, 253, 142);
+    text-align: center;  
+}
+
+.estudio{
+    border-bottom: 4px solid rgb(142, 253, 142);
+    padding: 10px;
+}
+
+.experiencias{
+    height: fit-content;
+    border-right: 4px solid rgb(142, 253, 142);
+    text-align: center;
+}
+
+.experiencia{
+    border-bottom: 4px solid rgb(142, 253, 142);
+    padding: 10px;
+}
+
+
+/*Sección proyectos*/
+
+#proyectos{
+    height: fit-content;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contenedorProyectos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    border: 4px solid rgb(142, 253, 142);
+    background: 
+        linear-gradient(rgb(142, 253, 142),white) border-box;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 50vw;
+    height: 40vh;
+
+}
+
+.proyecto{
+    background: linear-gradient( to bottom, #292828, #000000);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    
 }
