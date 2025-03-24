@@ -14,17 +14,14 @@ body{
     justify-content: space-around;
     align-items: center;
     background: white;
-    border-bottom: 4px solid #111111;
-    height: 10vh;
+    border-bottom: 5px solid rgb(142, 253, 142);
+    height: 7vh;
+    width: 100%;
 }
 .cabecera a{
     text-decoration: none;
     padding-inline: 20px;
     color: black;
-}
-.cabecera img{
-    width: 150px;
-    height: 100px;   
 }
 
 /* Presentacion */
@@ -73,6 +70,127 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: max-content;
+    width: 100%;
     padding: 20px;
+}
+
+.nombre h1{
+    font-size: 50px;
+}
+
+.nombre p{
+    font-size: 20px;
+}
+
+.resaltar{
+    color:rgb(142, 253, 142);
+}
+
+/*Sección redes*/
+
+.redes{
+    border-top: 4px solid white;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*Sección Sobre mí*/
+
+#sobremi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: white;
+}
+
+.textsobremi{
+    width: 50vw;
+    border-left: 4px solid rgb(142, 253, 142);
+    font-size: 20px;
+}
+
+.textsobremi p{
+    padding-left: 30px;
+}
+
+/*Sección trayectoria*/
+
+#trayectoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    color: white;
+    
+    padding: 20px;
+}
+
+.lineadetiempo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: fit-content;
+    width: 50vw;
+    
+}
+
+.estudios{
+    height: fit-content;
+    border-left: 4px solid rgb(142, 253, 142);
+    text-align: center;  
+}
+
+.estudio{
+    border-bottom: 4px solid rgb(142, 253, 142);
+    padding: 10px;
+}
+
+.experiencias{
+    height: fit-content;
+    border-right: 4px solid rgb(142, 253, 142);
+    text-align: center;
+}
+
+.experiencia{
+    border-bottom: 4px solid rgb(142, 253, 142);
+    padding: 10px;
+}
+
+
+/*Sección proyectos*/
+
+#proyectos{
+    height: fit-content;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contenedorProyectos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 10px;
+    border: 4px solid rgb(142, 253, 142);
+    background: 
+        linear-gradient(rgb(142, 253, 142),white) border-box;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 50vw;
+    height: 40vh;
+
+}
+
+.proyecto{
+    background: linear-gradient( to bottom, #292828, #000000);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    
 }
